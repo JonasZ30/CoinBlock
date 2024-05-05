@@ -1,0 +1,10 @@
+# Header
+-- Add under categories (About us, API, FAQ) for Coinblock
+-- Login + Crypto Portfolio
+-- Additional: Light and Dark mode
+
+# Footer
+-- Imprint
+-- Conditions (AGB)
+-- Socials
+-- Additional informations

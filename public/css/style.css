@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sculpin,sans-serif;
+}
+
+a,
+li,
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10px;
+    position: sticky;
+    background-image: linear-gradient(45deg, rgba(18, 18, 18, 0.774), rgba(128, 128, 128, 0.74));
+    top: 0;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav_Links {
+    list-style: none;
+}
+
+.nav_Links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav_Links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_Links li a:hover {
+    color: rgb(67, 67, 255);
+    font-weight: bold;
+}
+
+.nav-link-sub:hover .nav-link-with-submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-link-with-submenu {
+    border-radius: 5px;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    flex-direction: column;
+    position: absolute;
+    width: max-content;
+    background: rgba(23, 21, 24, .85);
+    padding: 1%;
+    margin-top: 1%;
+}
+.nav-link-submenu{
+    padding: 5px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-image: linear-gradient(45deg, blue, rgb(1, 192, 255));
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-image: linear-gradient(45deg, blue, rgb(1, 192, 255), darkblue, rgb(44, 127, 252));
+    background-size: 400% 400%;
+    animation: animate 1s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.home1{
+    display: flex;
+    align-items: center;
+}
+#homeImg1{
+    max-width: 100%;
+    height: auto;
+    margin-right: 1em;
+}
+
+.introduction{
+    margin-left: 1em;
+}
+.introduction_text{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.blue{
+    color: rgba(57, 120, 236, 0.671);
+}
+
+p {
+    color: white;
+}
+
+h3{
+    color: white;
+    margin-right: auto;
+}
+
+body {
+    background-color: black;
+}
